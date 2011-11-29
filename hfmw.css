@@ -1,0 +1,47 @@
+body {
+  margin: 0 1em;
+}
+h1, h2, h3 {
+  font-family: "MarkerFeltThin-Plain", "MarkerFelt", "Marker Felt";
+  color: #412985;
+}
+h2 {
+ color: #412985;
+}
+h4, h5, h6 {
+  font-family: "Arial Black", "Arial", san-serif;
+}
+body, p {
+  font-family: "Baskerville MT", "Baskerville", "Adobe Caslon Pro", "Caslon", "Georgia", serif;
+  font-size: 100%;
+}
+code {
+  background-color: #dedede;
+  padding: 0.25em;
+}
+
+a[title="download"] {
+  display: inline-block;
+  font-family: "Arial Black", "Arial", san-serif;
+  margin: .5em;
+  padding: .75em;
+  background-color: #412985;
+  color: #fff;
+  text-decoration: none;
+  background-image: linear-gradient(bottom, rgb(40,25,82) 0%, rgb(82,51,166) 50%);
+  background-image: -o-linear-gradient(bottom, rgb(40,25,82) 0%, rgb(82,51,166) 50%);
+  background-image: -moz-linear-gradient(bottom, rgb(40,25,82) 0%, rgb(82,51,166) 50%);
+  background-image: -webkit-linear-gradient(bottom, rgb(40,25,82) 0%, rgb(82,51,166) 50%);
+  background-image: -ms-linear-gradient(bottom, rgb(40,25,82) 0%, rgb(82,51,166) 50%);
+  background-image: -webkit-gradient(
+    linear,
+	 left bottom,
+	 left top,
+	 color-stop(0, rgb(40,25,82)),
+	 color-stop(0.5, rgb(82,51,166))
+  );
+  -moz-border-radius: .75em;
+  -webkit-border-radius: .75em;
+  -khtml-border-radius: .75em;
+  border-radius: .75em;
+}
