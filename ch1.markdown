@@ -12,5 +12,3 @@ Author: Lyza Danger Gardner, Jason Grigsby
 You'll need the code to get started on the chapter exercises!
 
 [Download Chapter 1 Code](chapter1.zip "download")
-
-#### Other Stuff
