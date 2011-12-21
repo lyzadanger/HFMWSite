@@ -1,9 +1,15 @@
 Title: Head First Mobile Web
 Author: Lyza Danger Gardner, Jason Grigsby  
 
+![Head First Mobile Web](images/hfmw-cover.jpg)
 # Head First Mobile Web
 ### Lyza Danger Gardner and Jason Grigsby
 ##### O'Reilly Publishing
+
+Here's where you'll find all of the code content you'll need to complete the
+exercises throughout the book.
+
+Each chapter's content can be downloaded as a single ZIP file.
 
 
 #### Get Started

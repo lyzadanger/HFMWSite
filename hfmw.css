@@ -1,8 +1,12 @@
 body {
   margin: 0 1em;
 }
+img {
+  float:    left;
+  padding:  0 1em 1em 1em;
+}
 h1, h2, h3 {
-  font-family: "MarkerFeltThin-Plain", "MarkerFelt", "Marker Felt";
+  font-family: "MarkerFeltThin-Plain", "MarkerFelt", "Marker Felt", sans-serif;
   color: #412985;
 }
 h2 {
@@ -11,15 +15,25 @@ h2 {
 h4, h5, h6 {
   font-family: "Arial Black", "Arial", san-serif;
 }
+
+h4 {
+  clear: both;
+}
 body, p {
   font-family: "Baskerville MT", "Baskerville", "Adobe Caslon Pro", "Caslon", "Georgia", serif;
   font-size: 100%;
+}
+
+li {
+  line-height: 1.5em;
 }
 code {
   background-color: #dedede;
   padding: 0.25em;
 }
-
+a {
+  text-decoration: none;
+}
 a[title="download"] {
   display: inline-block;
   font-family: "Arial Black", "Arial", san-serif;
