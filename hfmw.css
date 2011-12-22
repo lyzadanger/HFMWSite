@@ -1,13 +1,36 @@
+@font-face {
+  font-family: 'Rancho';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Rancho'), url('http://themes.googleusercontent.com/static/fonts/rancho/v2/EJt_7DbHYj8a5HS0_pTrl-vvDin1pK8aKteLpeZ5c0A.woff') format('woff');
+}
+
 body {
   margin: 0 1em;
+  background: -webkit-linear-gradient(90deg, transparent, transparent 24px, rgba(68, 0, 255, 0.08) 24px, rgba(68, 0, 255, 0.08) 25px) 0 0,
+              -webkit-linear-gradient(-180deg, transparent, transparent 24px, rgba(68, 0, 255, 0.08) 24px, rgba(68, 0, 255, 0.08) 25px) 0 0;
+  background: -moz-linear-gradient(90deg, transparent, transparent 24px, rgba(68, 0, 255, 0.08) 24px, rgba(68, 0, 255, 0.08) 25px) 0 0,
+              -moz-linear-gradient(-180deg, transparent, transparent 24px, rgba(68, 0, 255, 0.08) 24px, rgba(68, 0, 255, 0.08) 25px) 0 0;
+  background: linear-gradient(90deg, transparent, transparent 24px, rgba(68, 0, 255, 0.08) 24px, rgba(68, 0, 255, 0.08) 25px) 0 0,
+              linear-gradient(-180deg, transparent, transparent 24px, rgba(68, 0, 255, 0.08) 24px, rgba(68, 0, 255, 0.08) 25px) 0 0;
+  background-size: 25px 25px;
 }
 img {
   float:    left;
-  padding:  0 1em 1em 1em;
+  margin:  0 1em 1em 1em;
+  max-width: 100%;
+  box-shadow: 4px 4px 8px #999;
+  border: 1px solid rgba(68, 0, 266, 0.5);
 }
 h1, h2, h3 {
-  font-family: "MarkerFeltThin-Plain", "MarkerFelt", "Marker Felt", sans-serif;
+  font-family: "Rancho", sans-serif;
   color: #412985;
+}
+
+h1 {
+  font-style: italic;
+  font-size: 3em;
+  margin: 0 0 .5em 0;
 }
 h2 {
  color: #412985;
@@ -34,7 +57,7 @@ code {
 a {
   text-decoration: none;
 }
-a[title="download"] {
+a[title="download"], a[title="buy"] {
   display: inline-block;
   font-family: "Arial Black", "Arial", san-serif;
   margin: .5em;
@@ -58,4 +81,10 @@ a[title="download"] {
   -webkit-border-radius: .75em;
   -khtml-border-radius: .75em;
   border-radius: .75em;
+}
+
+@media all and (max-width: 405px) {
+  img {
+    float: none;
+  }
 }
