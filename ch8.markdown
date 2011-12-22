@@ -1,8 +1,7 @@
 Title: Chapter 8: HFMW  
 Author: Lyza Danger Gardner, Jason Grigsby  
 
-![Head First Mobile Web](../images/hfmw-cover.jpg)
-# Head First Mobile Web
+# [Head First Mobile Web](http://www.hf-mw.com "Head First Mobile Web")
 ### Lyza Danger Gardner and Jason Grigsby
 ##### O'Reilly Publishing
 
@@ -12,5 +11,3 @@ Author: Lyza Danger Gardner, Jason Grigsby
 You'll need the code to get started on the chapter exercises!
 
 [Download Chapter 8 Code](chapter8.zip "download")
-
-#### Other Stuff
