@@ -57,7 +57,8 @@ code {
 a {
   text-decoration: none;
 }
-a[title="download"], a[title="buy"] {
+a[title="download"], a[title="buy now"] {
+  border: 1px solid #fff;
   display: inline-block;
   font-family: "Arial Black", "Arial", san-serif;
   margin: .5em;
@@ -65,22 +66,19 @@ a[title="download"], a[title="buy"] {
   background-color: #412985;
   color: #fff;
   text-decoration: none;
-  background-image: linear-gradient(bottom, rgb(40,25,82) 0%, rgb(82,51,166) 50%);
-  background-image: -o-linear-gradient(bottom, rgb(40,25,82) 0%, rgb(82,51,166) 50%);
-  background-image: -moz-linear-gradient(bottom, rgb(40,25,82) 0%, rgb(82,51,166) 50%);
-  background-image: -webkit-linear-gradient(bottom, rgb(40,25,82) 0%, rgb(82,51,166) 50%);
-  background-image: -ms-linear-gradient(bottom, rgb(40,25,82) 0%, rgb(82,51,166) 50%);
-  background-image: -webkit-gradient(
-    linear,
-	 left bottom,
-	 left top,
-	 color-stop(0, rgb(40,25,82)),
-	 color-stop(0.5, rgb(82,51,166))
-  );
+  text-shadow: black 1px 2px;
+  background-image: linear-gradient(bottom, rgb(40,25,82) 0%, rgb(118,98,172) 65%);
+  background-image: -o-linear-gradient(bottom, rgb(40,25,82) 0%, rgb(118,98,172) 65%);
+  background-image: -moz-linear-gradient(bottom, rgb(40,25,82) 0%, rgb(118,98,172) 65%);
+  background-image: -webkit-linear-gradient(bottom, rgb(40,25,82) 0%, rgb(118,98,172) 65%);
+  background-image: -ms-linear-gradient(bottom, rgb(40,25,82) 0%, rgb(118,98,172) 65%);
+
   -moz-border-radius: .75em;
   -webkit-border-radius: .75em;
   -khtml-border-radius: .75em;
   border-radius: .75em;
+  
+  box-shadow: 3px 3px 5px #666;
 }
 
 @media all and (max-width: 405px) {

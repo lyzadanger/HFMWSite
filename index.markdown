@@ -22,3 +22,9 @@ Each chapter's content can be downloaded as a single ZIP file.
 * [Chapter 7: Mobile Web Apps in the Real World](ch7/ 'Chapter 7')
 * [Chapter 8: Building Hybrid Mobile Apps with PhoneGap](ch8/ 'Chapter 8')
 * [Chapter 9: How to be Future-friendly](ch9/ 'Chapter 9')
+
+#### Get the book
+
+Don't have the book yet?
+
+[Buy the Book!](http://bit.ly/hf-mw "buy now")
