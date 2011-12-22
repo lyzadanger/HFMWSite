@@ -6,7 +6,7 @@ Author: Lyza Danger Gardner, Jason Grigsby
 ### Lyza Danger Gardner and Jason Grigsby
 ##### O'Reilly Publishing
 
-## Chapter 9: Hybrid Mobile App Development with PhoneGap
+## Chapter 9: How to be Future Friendly
 
 #### Get Started
 You'll need the code to get started on the chapter exercises!
